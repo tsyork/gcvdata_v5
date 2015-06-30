@@ -10,7 +10,7 @@ class Header extends React.Component{
   render() {
     return (
       <header className="clearfix">
-        Application Name
+        GCV Data Subscription
 
         <nav className="clearfix">
           <div className="nav-item">
