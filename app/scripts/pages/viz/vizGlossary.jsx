@@ -12,6 +12,7 @@ var GlossaryViz = React.createClass({
     },
 
     // this function tells ReactScriptLoaderMixin where to load the script from
+    // TODO: Is there a way to point this function to a locally stored .js file?
     getScriptURL: function() {
         return 'https://online.tableau.com/javascripts/api/tableau_v8.debug.js';
     },
