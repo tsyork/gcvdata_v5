@@ -34,7 +34,8 @@ var InvestorsViz = React.createClass({
             //width: '1200px',
             //height: '540px',
             hideToolbar: true,
-            hideTabs: true
+            hideTabs: true,
+            option1: sessionStorage.userName
         };
         InvestorsViz = new tableauSoftware.Viz(vizDiv, vizURL, options);
     },

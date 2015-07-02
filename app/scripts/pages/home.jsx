@@ -3,6 +3,7 @@ import ItemList from '../components/itemList.jsx';
 import ItemStore from '../stores/itemStore';
 import ItemActions from '../actions/itemActions';
 
+//TODO: What is difference between "extend React.Component" and "= React.createClass"?
 class Home extends React.Component {
   
   constructor(props){

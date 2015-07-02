@@ -14,6 +14,12 @@ import GlossaryViz from './pages/viz/vizGlossary.jsx';
 import Info from './pages/info.jsx';
 import NotFound from './pages/notFound.jsx';
 
+//var routes = (
+//    <Route name="app" handler={App} path="/">
+//      <Route name="destination" path="destination/:someparam" handler={Destination} />
+//    </Route>
+//);
+
 var routes = (
   <Route name="app" path="/" handler={ App }>
     <Route name="info" handler={ Info } />
@@ -30,5 +36,8 @@ var routes = (
     <NotFoundRoute handler={ NotFound } />
   </Route>
 );
+
+
+// sessionStorage.userName = "Tim";
 
 export default routes;
