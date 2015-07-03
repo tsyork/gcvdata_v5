@@ -49,7 +49,7 @@ In order to test files that are using the react-router we had to add [stubRouter
 
 ## Javascript
 
-Javascript entry file: `app/scripts/main.js` <br />
+Javascript entry file: `app/server.js` <br />
 
 **Reflux**
 

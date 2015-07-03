@@ -28,7 +28,8 @@ gulp.task('scripts', function() {
   return gulp.src(webpackConfig.entry)
     .pipe($.webpack(webpackConfig))
     .pipe(isProduction ? $.uglifyjs() : $.util.noop())
-    .pipe(gulp.dest(dist + 'js/'))
+    .pipe(gulp.dest(dist))
+    //.pipe(gulp.dest(dist + 'js/')) // changed destination file for build to root directory
     .pipe($.size({ title : 'js' }))
     .pipe($.connect.reload());
 });

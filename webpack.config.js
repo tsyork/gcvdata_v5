@@ -3,10 +3,10 @@ module.exports.getConfig = function(type) {
   var isDev = type === 'development';
 
   var config = {
-    entry: './app/scripts/main.js',
+    entry: './app/server.js',
     output: {
       path: __dirname,
-      filename: 'main.js'
+      filename: 'server.js'
     },
     debug : isDev,
     module: {
