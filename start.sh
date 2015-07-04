@@ -9,4 +9,6 @@ cd gcvdata_v5
 
 npm install
 
+gulp build
+
 node .

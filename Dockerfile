@@ -12,11 +12,11 @@ RUN apt-get update
 
 # install nodejs and npm
 RUN apt-get install -y nodejs npm git git-core
-RUN ln -s /usr/bin/nodejs /usr/bin/node
 RUN npm install -g gulp
+RUN ln -s /usr/bin/nodejs /usr/bin/node
 
 ADD start.sh /tmp/
 
 RUN chmod +x /tmp/start.sh
 
-CMD ./tmp/start.sh
+CMD ["sh","/tmp/start.sh"]

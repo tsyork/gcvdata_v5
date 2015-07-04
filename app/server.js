@@ -60,4 +60,4 @@ var ReactRouterBootstrap = require('react-router-bootstrap')
 //    </Route>
 //);
 
-Router.run(routes, Handler => React.render(<Handler foo={3+2} />, document.body));
+Router.run(routes, Handler => React.render(<Handler />, document.body));
