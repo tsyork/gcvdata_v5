@@ -29,7 +29,7 @@ var HomeViz = React.createClass({
 
     componentDidMount: function(){
         var vizDiv = document.getElementById('viz_container');
-        var vizURL = "https://10ay.online.tableau.com/#/site/gcvdealsdata/views/Subscription_Beta/Landing_Page";
+        var vizURL = "https://10ay.online.tableau.com/#/site/gcvdealsdata/views/Subscription_Beta/Landing_page";
         var options = {
             //width: '1200px',
             //height: '540px',
